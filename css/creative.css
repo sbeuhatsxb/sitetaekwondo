@@ -109,6 +109,20 @@ p {
 section {
   padding: 100px 0; }
 
+/* reglages visuels sur la section information/club */
+.informations h2 {
+  
+  font-weight: bold;
+}
+
+.info_competition {
+
+margin-top: 40px;
+}
+
+
+
+
 .section-heading {
   margin-top: 0; }
 
