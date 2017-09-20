@@ -103,6 +103,10 @@ p {
   color: white;
   background-color: #222222 !important; }
 
+  .bg-white {
+    color: #222222;
+    background-color: #FFFFFF !important; }
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
@@ -111,7 +115,7 @@ section {
 
 /* reglages visuels sur la section information/club */
 .informations h2 {
-  
+
   font-weight: bold;
 }
 
