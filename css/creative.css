@@ -17,8 +17,13 @@ html {
     margin: 0 auto;
 }
 
+img.padactu {
+    padding: 8% 0px 0px 0px;
+}
 
-
+div.pad_text_actu {
+    padding: 25px 50px;
+}
 
 .px-2 {
   padding-left: 20px;
