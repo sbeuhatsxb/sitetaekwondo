@@ -93,7 +93,7 @@
       <div class="container">
         <div class="col-xs-12">
           <hr>
-          <h3>Si vous souhaitez nous laisser un message :</h3>
+          <h3>Si vous souhaitez nous laisser un message :</h3><br>
 
           <div class="col-md-5 text-left center-col">
 
@@ -103,7 +103,7 @@
 
                 <div>
                   <label for="choice">Concerne :</label>
-                  <select name="choice" class="pull-right">
+                  <select name="choice" class="pull-right form-control">
                     <option value="none">Le club</option>
                       <option value="one">La pratique quotidienne</option>
                       <option value="two">La compétition</option>
@@ -115,26 +115,26 @@
                 <div>
 
                   <label for="firstname">Prénom :</label>
-                  <input type="text" name="firstname" value="" class="pull-right" required>
+                  <input type="text" name="firstname" value="" class="pull-right form-control" required>
                   <span class="text-danger" ></span>
                 </div>
 
                 <div>
                   <label for="lastname">Nom :</label>
-                  <input type="text" name="lastname" value="" class="pull-right" required>
+                  <input type="text" name="lastname" value="" class="pull-right form-control" required>
                   <span class="text-danger"></span>
                 </div>
 
                 <div>
                   <label class="text-xs-left" for="email">Email :</label>
-                  <input type="email" name="email" class="pull-right" required  pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" value="" class="align-right">
+                  <input type="email" name="email" class="pull-right form-control" required  pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" value="" class="align-right">
                   <span class="text-danger"></span>
                 </div>
                 <br>
 
                 <div>
                   <label for="phone">Numéro de téléphone :</label>
-                  <input type="phone" pattern="[0-9]{10}" name="phone" value="" class="pull-right" required />
+                  <input type="phone" pattern="[0-9]{10}" name="phone" value="" class="pull-right form-control" required />
                   <span class="text-danger"></span>
                 </div>
                   <br>
@@ -142,12 +142,13 @@
 
               <p>
                 <br />
-                <textarea name="ameliorer" id="ameliorer" rows="10" cols="40">
-                </textarea></div>
+                <label for="freetext">Votre message :</label>
+                <textarea class="form-control" name="freetext"  rows="10" cols="40">
+                </textarea></div><br>
               </p>
 
             <div class"">
-              <input type="submit" class="col-lg-4 btn btn-default btn-xl js-scroll-trigger" method="POST" action="mailto:sebastien@arc-ad.com?subject=Demande d'informations" value="Envoyer">
+              <input type="submit" class="col-xs-2 btn btn-default btn-xl js-scroll-trigger" method="POST" action="mailto:sebastien@arc-ad.com?subject=Demande d'informations" value="Envoyer">
             </div>
             </form>
 
