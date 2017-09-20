@@ -132,6 +132,15 @@ section {
 margin-top: 40px;
 }
 
+.section_index {
+  padding: 30px;
+}
+
+#contact {
+
+  margin-top: -100px;
+}
+
 
 
 
@@ -149,6 +158,15 @@ margin-top: 40px;
 
 .section-top-pad  {
     padding-top: 100px; padding-bottom: 40px; }
+
+
+@media (min-width: 700px) {
+
+.big {
+  width : 400px;
+}
+
+}
 
 
 ::-moz-selection {
