@@ -10,13 +10,21 @@ html {
 
 
   /* modifications personnelles */
+
+#wrapper {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
 .p-0 img {
 
-      
+
       height: 200px;
       margin:10px;
       border: solid 4px black;
-      
+
     }
 
 .p-0 h1 {
@@ -24,9 +32,9 @@ html {
   margin-bottom: 30px;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
-  
+
     .img-fluid {
-      border-width: 5px; 
+      border-width: 5px;
       border-color:black;
     }
 
@@ -83,6 +91,10 @@ p {
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
   }
 
+  .orange
+    {
+      color: #f05f40;
+    }
 
 .bg-primary {
   background-color: #F05F40 !important; }
