@@ -13,13 +13,26 @@ html {
 
 #wrapper {
     width: 80%;
-    max-width: 960px;
+    max-width: 600px;
     margin: 0 auto;
+}
+
+img.padactu {
+    padding: 8% 0px 0px 0px;
+}
+
+div.pad_text_actu {
+    padding: 25px 50px;
+}
+
+.px-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:20px;
 }
 
 
 .p-0 img {
-
 
       height: 200px;
       margin:10px;
