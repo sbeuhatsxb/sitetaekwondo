@@ -21,6 +21,11 @@ img.padactu {
     padding: 8% 0px 0px 0px;
 }
 
+img.logo {
+    max-width: 70px;
+}
+
+
 div.pad_text_actu {
     padding: 25px 50px;
 }
@@ -265,6 +270,11 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
 
+@media (max-width: 855px) {
+img.logo {
+  display: none;
+} }
+
 header.masthead {
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px; /* contour des lettres */
   position: relative;
@@ -317,7 +327,9 @@ header.masthead {
             font-size: 18px;
             max-width: 80%;
             margin-right: auto;
-            margin-left: auto; } }
+            margin-left: auto; }
+
+             }
 
 header.masthead2 {
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px; /* contour des lettres */
